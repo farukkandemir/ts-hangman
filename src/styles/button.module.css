@@ -1,0 +1,22 @@
+.btn {
+  text-transform: uppercase;
+  border: 2.5px solid black;
+  background: none;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #efefef;
+}
+
+.btn.correct {
+  background-color: green;
+  color: white;
+}
+
+.btn.incorrect {
+  opacity: 0.3;
+  pointer-events: none;
+}
